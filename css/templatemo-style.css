@@ -396,9 +396,10 @@ ul {
 
 .about-content .about-box-text h4 {
   display: inline-block;
+  text-align: center;
   padding-bottom: 5px;
   font-size: 22px;
-  color: rgb(65, 2, 65);
+  color: rgb(184, 119, 35);
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1137,4 +1138,9 @@ body.lb-disable-scrolling {
 
 .owl-carousel .owl-nav {
   display: none;
+}
+
+.logos {
+  display: flex;
+  gap: 7%;
 }
