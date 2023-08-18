@@ -1,11 +1,3 @@
-/* 
-
-Stacked Template
-
-https://templatemo.com/tm-505-stacked
-
-*/
-
 body {
 	font-family: 'Roboto', sans-serif;
 }
@@ -217,7 +209,8 @@ ul {
   overflow: hidden;
 }
 .panel__wrapper {
-  padding: 0;
+  background-color: rgba(45, 58, 75, 0.5);
+  padding: 100px;
   -webkit-perspective: 1000px;
           perspective: 1000px;
 }
@@ -246,7 +239,7 @@ ul {
 }
 
 .b-blue {
-  margin-bottom: -2px;
+  margin-bottom: -10px;
   background-image: url(../img/first-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -399,7 +392,7 @@ ul {
   text-align: center;
   padding-bottom: 5px;
   font-size: 22px;
-  color: rgb(184, 119, 35);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -409,7 +402,7 @@ ul {
 }
 
 .about-content .about-box-text p {
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -608,9 +601,10 @@ ul {
 */
 
 @media (max-width: 768px){
+
   .heading h4 {
     font-size: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 30px; 
   }
   .home-content {
     text-align: center;
@@ -660,9 +654,9 @@ ul {
     position: relative;
   }
   .about-content .about-box-text {
-    background-color: #fff;
+    background-color: #455871;
     padding: 30px;
-    margin-top: -30px;
+    margin-top: 10px;
     margin-left: 15px;
     margin-right: 15px;
   }
