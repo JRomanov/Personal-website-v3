@@ -209,7 +209,7 @@ ul {
   overflow: hidden;
 }
 .panel__wrapper {
-  background-color: rgba(45, 58, 75, 0.5);
+  background-color: rgba(45, 58, 75, 0.0);
   padding: 100px;
   -webkit-perspective: 1000px;
           perspective: 1000px;
@@ -718,6 +718,10 @@ ul {
 body:after {
   content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
   display: none;
+}
+
+body {
+  background-color: black
 }
 
 body.lb-disable-scrolling {
