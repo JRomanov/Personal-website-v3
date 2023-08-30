@@ -22,7 +22,8 @@ ul {
   margin: 0;
 }
 
-.primary-button a {
+.primary-button a, 
+#firstDiscoverButton{
   display: inline-block;
   background-color: #fa5252;
   color: #fff;
@@ -35,12 +36,14 @@ ul {
   border: 1px solid transparent;
 }
 
-.primary-button a:hover {
+.primary-button a:hover, 
+#firstDiscoverButton:hover {
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 1px solid #fa5252;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
+  color: #fa5252;
 }
 
 .heading h4 {
@@ -1144,4 +1147,10 @@ body.lb-disable-scrolling {
 .logos {
   display: flex;
   gap: 7%;
+}
+
+@media screen and (max-width: 800px) {
+  section#2 {
+    padding-bottom: 250px;
+  }
 }
