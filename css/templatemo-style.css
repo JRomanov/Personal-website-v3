@@ -1150,7 +1150,13 @@ body.lb-disable-scrolling {
 }
 
 @media screen and (max-width: 800px) {
-  section#2 {
+  #section2 {
+    padding-bottom: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #section2 {
     padding-bottom: 250px;
   }
 }
